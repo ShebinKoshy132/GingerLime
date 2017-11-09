@@ -103,6 +103,7 @@
 			children = (
 				0D1C8BC31FB2D9F3005FDB1F /* AppDelegate.h */,
 				0D1C8BC41FB2D9F3005FDB1F /* AppDelegate.m */,
+				0D8613A11FB43AD400FEB1F1 /* ClassesOneKing */,
 				0D1C8BC61FB2D9F3005FDB1F /* ViewController.h */,
 				0D1C8BC71FB2D9F3005FDB1F /* ViewController.m */,
 				0D1C8BC91FB2D9F3005FDB1F /* Main.storyboard */,
@@ -138,6 +139,13 @@
 				0D1C8BE71FB2D9F3005FDB1F /* Info.plist */,
 			);
 			path = OrangeUITests;
+			sourceTree = "<group>";
+		};
+		0D8613A11FB43AD400FEB1F1 /* ClassesOneKing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClassesOneKing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +513,7 @@
 				0D1C8BEC1FB2D9F3005FDB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D1C8BED1FB2D9F3005FDB1F /* Build configuration list for PBXNativeTarget "OrangeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				0D1C8BEF1FB2D9F3005FDB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D1C8BF01FB2D9F3005FDB1F /* Build configuration list for PBXNativeTarget "OrangeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				0D1C8BF21FB2D9F3005FDB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
