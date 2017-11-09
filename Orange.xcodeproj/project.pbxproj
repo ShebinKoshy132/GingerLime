@@ -15,6 +15,8 @@
 		0D1C8BD01FB2D9F3005FDB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1C8BCE1FB2D9F3005FDB1F /* LaunchScreen.storyboard */; };
 		0D1C8BDB1FB2D9F3005FDB1F /* OrangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C8BDA1FB2D9F3005FDB1F /* OrangeTests.m */; };
 		0D1C8BE61FB2D9F3005FDB1F /* OrangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C8BE51FB2D9F3005FDB1F /* OrangeUITests.m */; };
+		0D8613A51FB43B2900FEB1F1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8613A21FB43B2900FEB1F1 /* ReplaceMe.m */; };
+		0D8613A61FB43B2900FEB1F1 /* VConstantsOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8613A41FB43B2900FEB1F1 /* VConstantsOne.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0D1C8BE11FB2D9F3005FDB1F /* OrangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1C8BE51FB2D9F3005FDB1F /* OrangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeUITests.m; sourceTree = "<group>"; };
 		0D1C8BE71FB2D9F3005FDB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8613A21FB43B2900FEB1F1 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		0D8613A31FB43B2900FEB1F1 /* VConstantsOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VConstantsOne.h; sourceTree = "<group>"; };
+		0D8613A41FB43B2900FEB1F1 /* VConstantsOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VConstantsOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +149,9 @@
 		0D8613A11FB43AD400FEB1F1 /* ClassesOneKing */ = {
 			isa = PBXGroup;
 			children = (
+				0D8613A21FB43B2900FEB1F1 /* ReplaceMe.m */,
+				0D8613A31FB43B2900FEB1F1 /* VConstantsOne.h */,
+				0D8613A41FB43B2900FEB1F1 /* VConstantsOne.m */,
 			);
 			path = ClassesOneKing;
 			sourceTree = "<group>";
@@ -281,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8613A51FB43B2900FEB1F1 /* ReplaceMe.m in Sources */,
 				0D1C8BC81FB2D9F3005FDB1F /* ViewController.m in Sources */,
 				0D1C8BC51FB2D9F3005FDB1F /* AppDelegate.m in Sources */,
+				0D8613A61FB43B2900FEB1F1 /* VConstantsOne.m in Sources */,
 				0D1C8BC21FB2D9F3005FDB1F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
